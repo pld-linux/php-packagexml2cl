@@ -4,7 +4,7 @@
 Summary:	Program to convert PEAR package.xml to ChangeLog format
 Name:		php-%{pkgname}
 Version:	0.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	xml2changelog
