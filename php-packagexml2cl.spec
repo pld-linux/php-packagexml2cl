@@ -4,14 +4,14 @@
 Summary:	Program to convert PEAR package.xml to ChangeLog format
 Name:		php-%{pkgname}
 Version:	0.1
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	xml2changelog
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(simplexml)
-Requires:	php-common >= 4:%{php_min_version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
