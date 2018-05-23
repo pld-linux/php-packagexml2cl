@@ -2,6 +2,7 @@
 %define		php_min_version 5.0.0
 %define		pkgname	packagexml2cl
 Summary:	Program to convert PEAR package.xml to ChangeLog format
+Summary(pl.UTF-8):	Program do konwersji pliku PEAR-a package.xml do formatu ChangeLog
 Name:		php-%{pkgname}
 Version:	0.1
 Release:	4
@@ -17,6 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Program to convert PEAR package.xml to ChangeLog format.
+
+%description -l pl.UTF-8
+Program do konwersji pliku PEAR-a package.xml do formatu ChangeLog.
 
 %prep
 
